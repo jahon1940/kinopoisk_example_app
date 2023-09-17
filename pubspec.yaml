@@ -1,0 +1,38 @@
+name: empty_feature_folder
+description: A new Flutter project.
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  dio: ^5.3.2
+  # bloc state manager
+  flutter_bloc: ^8.1.2
+  # equatable
+  equatable: ^2.0.5
+  internet_connection_checker: ^1.0.0+1
+  connectivity_plus: ^4.0.1
+  keyboard_dismisser: ^3.0.0
+  youtube_player_flutter: ^8.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+  assets:
+    - assets/
+
+  uses-material-design: true
+
+
